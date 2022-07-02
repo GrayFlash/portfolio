@@ -12,12 +12,12 @@ body {
 }
 
 a {
-  color: #00eeff;
-  text-decoration: none;
+  color: #f18b06;
+  text-decoration: dotted;
 }
 
 a:hover {
-  color: #def106;
+  color: #f10606;
 }
 
 * {
@@ -114,4 +114,18 @@ a:hover {
 .bullet_list {
   padding-left: 24px;
   margin-left: 0;
+}
+
+.socials img {
+  padding: 15px;
+  border-radius: 5px;
+  width: 56px;
+  height: 56px;
+}
+
+.socials img:hover {
+  padding: 18px;
+  width: 56px;
+  height: 56px;
+  background-color: #a9e8ed;
 }
