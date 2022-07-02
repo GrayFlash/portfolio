@@ -53,6 +53,16 @@ export default function Home() {
             architecture tradeoffs. Here I also learned some coding practices like TDD, understood Object Paradigm,
             and other concepts.
           </p>
+          <p>
+            After this point, I spent around 7 months out of 11 of my junior year spending time as a intern at Gojek.
+            Here we built two projects that would power the Data Catalog for Gojek, and both of them are open source as
+            <a href='https://github.com/odpf/meteor'>meteor</a> and <a href='https://github.com/odpf/compass'>compass</a>.
+          </p>
+          <p>
+            I was also a community leader for ACM NIT Surat, the programming student chapter and we conducted various 
+            programming events throughout the year, and helped many of my juniors getting started with their journey of
+            computer science.
+          </p>
         </div>
         <div className='row'>
           {/* TODO: add tech-stack */}
