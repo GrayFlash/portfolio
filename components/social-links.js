@@ -1,6 +1,6 @@
 import { useTheme } from 'next-themes'
 import React, { useState, useEffect } from 'react'
-export default function Index() {
+export default function SocialLinks() {
     const [mounted, setMounted] = useState(false)
     const { theme } = useTheme()
 
@@ -21,9 +21,9 @@ export default function Index() {
         'instagram',
     ]
 
-    function iconLinkGenerator(name, theme, link) {
+    function iconLinkGenerator(name, link, index) {
         return (
-        <a href={link} target="_blank" rel="noreferrer noopener">
+        <a key={index} href={link} target="_blank" rel="noreferrer noopener">
             <img
             src={`https://s2.svgbox.net/social.svg?ic=${name}&color=${
                 '000'
@@ -36,7 +36,7 @@ export default function Index() {
     return (
         <div className="socials">
         {linkList.map((link, index) =>
-            iconLinkGenerator(iconList[index], theme, link),
+            iconLinkGenerator(iconList[index], link, index),
         )}
         </div>
     )
