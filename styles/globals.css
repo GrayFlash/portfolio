@@ -142,3 +142,21 @@ a:hover {
     max-height: 400px;
   }
 }
+
+.card__blog{
+  color: black;
+}
+
+.card__blog h4 {
+  margin-bottom: 0.3rem;
+  color: #000;
+}
+
+.card__blog:hover h4{
+  color: #f10606;
+}
+
+.card__blog__date{
+  color: #4d4d4d;
+  font-size: 16px;
+}
