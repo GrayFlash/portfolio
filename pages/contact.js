@@ -22,8 +22,9 @@ export default function Contact() {
                 <h3>Feel free to get in touch</h3>
                 <p>I am into open-source projects, participating in a hackathon, coding contests, watching anime/series, and discussing various opportunities in tech.
                     If you have something we can discuss together, any opportunity that may excite me, or if there is something I can help you with, feel free to reach out.
-                    You can either send an <a href='mailto:gk74533@gmail.com'>email</a> or reach out on any of my social handle:
+                    You can either send an <a href='mailto:gk74533@gmail.com'>email</a> or reach out on any of my social handle.
                 </p>
+                <br/>
                 <SocialLinks/>
             </div>
         </div>

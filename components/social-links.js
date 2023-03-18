@@ -23,6 +23,7 @@ export default function SocialLinks() {
 
     function iconLinkGenerator(name, link, index) {
         return (
+            // <div>
         <a key={index} href={link} target="_blank" rel="noreferrer noopener">
             <img
             src={`https://s2.svgbox.net/social.svg?ic=${name}&color=${
@@ -31,10 +32,11 @@ export default function SocialLinks() {
             className="social-icons"
             />
         </a>
+        // {/* </div> */}
         )
     }
     return (
-        <div className="socials">
+        <div className="socials-links">
         {linkList.map((link, index) =>
             iconLinkGenerator(iconList[index], link, index),
         )}
