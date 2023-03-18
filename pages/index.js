@@ -69,7 +69,7 @@ export default function Home() {
             programming events throughout the year, and helped many of my juniors getting started with their journey of
             computer science. A key highlight around my tenure here was organising hackathon named Hack DotSlash.
             This hackathon is quite close to my heart, and I have been rejected here as a participant, only to 
-            win it's next edition, then become it's lead organizer and mentor it in the 6th edition. And this 4 year 
+            win it&apos;s next edition, then become it&apos;s lead organizer and mentor it in the 6th edition. And this 4 year 
             association taught me a lot stuff about people, dev-community, devrels and organisations.
           </p>
           <p>
