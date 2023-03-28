@@ -17,6 +17,8 @@ export default function Blogs() {
                 I am yet to publish most of the personal blogs I have written. Meanwhile, here are some of the technical blogs I have published down the line:
             </div>
             <BlogList/>
+            <br/>
+            <br/>
         </div>
     )
 }

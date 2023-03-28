@@ -26,6 +26,8 @@ export default function Contact() {
                 </p>
                 <br/>
                 <SocialLinks/>
+                <br/>
+                <br/>
             </div>
         </div>
     )
