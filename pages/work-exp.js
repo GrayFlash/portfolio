@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import WorkExperiences from '../components/employments';
 import Header from '../components/header';
 
 export default function WorkExperience() {
@@ -11,9 +12,17 @@ export default function WorkExperience() {
             </Head>
             <Header />
             <br/>
-            <br/>
+            <p>
+                I got my first internship at Gojek close to the end of my
+                sophomore year at my B.Tech degree. Life has been pretty
+                different in a lot of ways sunce then. A list of my work
+                experience is:
+            </p>
             <div className='mainHome'>
-                <h3>Work in Progress 👷🚧 </h3>
+                {/* <h3>Work in Progress 👷🚧 </h3> */}
+                <WorkExperiences/>
+                <br/>
+                <br/>
             </div>
         </div>
     )
