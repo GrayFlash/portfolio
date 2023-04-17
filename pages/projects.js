@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/footer';
 import Header from '../components/header';
 
 export default function Projects() {
@@ -15,6 +16,7 @@ export default function Projects() {
             <div className='mainHome'>
                 <h3>Work in Progress 👷🚧 </h3>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -104,6 +104,15 @@ a:hover {
   color: rgb(247, 25, 25);
 }
 
+/************************ FOOTER ******************************/
+
+.footer {
+  padding: 20px 0px;
+  border-top: 2px dashed;
+  margin-top: auto;
+  text-align: center;
+}
+
 .main {
   text-align: justify;
 }
@@ -124,20 +133,22 @@ a:hover {
 }
 
 .socials-links {
-  margin-left: 30%;
+    text-align:center;
 }
 
 .socials img {
   padding: 15px;
   border-radius: 5px;
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
+}
+
+.social-image-box {
+  display:inline-block;
 }
 
 .socials img:hover {
   padding: 18px;
-  width: 56px;
-  height: 56px;
   background-color: #a9e8ed;
 }
 
@@ -145,18 +156,7 @@ a:hover {
   .home-image {
     max-height: 400px;
   }
-
-  .socials-links {
-    margin-left: 25%;
-  }
 }
-
-@media (max-width: 400px) {
-  .socials-links {
-    margin-left: 13%;
-  }
-}
-
 
 .card__blog{
   color: black;

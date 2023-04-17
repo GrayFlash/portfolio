@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Footer from '../components/footer';
 import Header from '../components/header';
 
 
@@ -77,8 +77,6 @@ export default function Home() {
             Feel free to checkout other section of my website as well, and thanks for visiting!
           </p>
           <br/>
-          <br/>
-          <br/>
         </div>
         <div className='row'>
           {/* TODO: add tech-stack */}
@@ -87,6 +85,8 @@ export default function Home() {
         </div>
         {/* <h3>Work in Progress head to bio👷🚧 </h3> */}
       </main>
+
+      <Footer/>
     </div>
   )
 }

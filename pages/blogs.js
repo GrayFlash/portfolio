@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/footer';
 import Header from '../components/header';
 import BlogList from '../components/blog-list';
 export default function Blogs() {
@@ -18,7 +19,9 @@ export default function Blogs() {
             </div>
             <BlogList/>
             <br/>
-            <br/>
+
+            <Footer/>
         </div>
+
     )
 }
