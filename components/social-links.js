@@ -23,16 +23,16 @@ export default function SocialLinks() {
 
     function iconLinkGenerator(name, link, index) {
         return (
-            // <div>
-        <a key={index} href={link} target="_blank" rel="noreferrer noopener">
-            <img
-            src={`https://s2.svgbox.net/social.svg?ic=${name}&color=${
-                '000'
-            }`}
-            className="social-icons"
-            />
-        </a>
-        // {/* </div> */}
+            <div className='social-image-box'>
+                <a key={index} href={link} target="_blank" rel="noreferrer noopener">
+                    <img
+                    src={`https://s2.svgbox.net/social.svg?ic=${name}&color=${
+                        '000'
+                    }`}
+                    className="social-icons"
+                    />
+                </a>
+            </div>
         )
     }
     return (

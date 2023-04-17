@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import WorkExperiences from '../components/employments';
+import Footer from '../components/footer';
 import Header from '../components/header';
 
 export default function WorkExperience() {
@@ -22,8 +23,9 @@ export default function WorkExperience() {
                 {/* <h3>Work in Progress 👷🚧 </h3> */}
                 <WorkExperiences/>
                 <br/>
-                <br/>
             </div>
+
+            <Footer/>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/footer';
 import Header from '../components/header';
 import SocialLinks from '../components/social-links';
 
@@ -24,11 +25,12 @@ export default function Contact() {
                     If you have something we can discuss together, any opportunity that may excite me, or if there is something I can help you with, feel free to reach out.
                     You can either send an <a href='mailto:gk74533@gmail.com'>email</a> or reach out on any of my social handle.
                 </p>
-                <br/>
-                <SocialLinks/>
-                <br/>
-                <br/>
+                {/* <br/> */}
+                {/* <SocialLinks/> */}
+                {/* <br/> */}
             </div>
+
+            <Footer/>
         </div>
     )
 }
