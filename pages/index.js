@@ -20,11 +20,10 @@ export default function Home() {
           <div className='column left'>
             <h3>Hi, I am Gaurav Kumar</h3>
             <p>
-              I am a final year undergrad in B.Tech, majoring in Electronics and Communication 
-              Engineering. I am currently an intern at <i>Chargebee</i>, where I work with 
-              <b> SRE</b> team on building solutions for reliable automation of cloud 
-              infrastructure. Cloud Engineering is relativly new for me since I have worked with 
-              ML and Backend-intensive projects so far and hence I am trying to do  better.
+              I completed B.Tech, majoring in Electronics and Communication Engineering from NIT Surat. 
+              I am currently as a Backend Engineer at <i>Merpay</i> - fintech division of Mercari 🇯🇵.
+              I have also worked on Machine Learning, Automation and Full stack projects, and I am trying
+              to build my skillset as a generalist better by picking up similar challenges in my career.
             </p>
           </div>
           <div className='column right'>
@@ -34,40 +33,42 @@ export default function Home() {
 
         <div className='row-text'>
           <p>
-            Internet is huge, and so is my interest in technologies. I have been making
-            and breaking code for past 6 years (started with Java in high school).
-            For me the love to programming started with the thought of being able to write a logic
-            that was suitable to addressing the problems.
+            I have always loved Mathematics, to me those numbers, patterns and the underlying logic made a lot
+            of sense in terms of practicality. So, I was never sure about becomming a programmer, unless I started
+            seeing those patterns here as well.
           </p>
           <p>
-            I have been exploring various tech-stacks for past 3 years, started with some simple web development,
-            in my sophomore year continued with Machine Learning where I built most of my hackathon projects and
-            was building models, the api endpoints required to fetch prediction to the frontend part and building
-            some react components for displaying the part. My sophomore year at college was a breakthrough year for
-            my skill set and career. I won my first hackathon, got in depths of Machine Learning algorithms, went
-            through different Data Structures and Algorithms, and participated in numerous challenges. I applied
-            for GSoC, and went through multiple open source projects learning tools of trade I never used before (like
-            Semantic web, canvas in HTML, JS Vanilla, Docker, etc).
-          </p>
+            I have been exploring various tech-stacks for past 5 years:
+            <ul>
+              <li>
+                Started with Java as part of High School curriculum, learned OOP and relevant patterns. 
+              </li>
+              <li>
+                Worked on simple web technologies uptill Vanilla JS in freshmen Year of University. 
+              </li>
+              <li>
+                Hackathons were important to me, and I participated in tons of them.
+              </li>
+              <li>
+                Made applications in <b>React native</b>, with the <b>MERN</b> stack initially.
+              </li>
+              <li>
+                Also worked on integration of <b>Machine Learning</b> algorithms with a <b>Flask</b>
+                Backend, to improve these projects functionally.
+              </li>
+              <li>
+                Post this, I have got internships and finally first job, where I have worked in
+                <b>golang, Python, Java, Vue.js, and Cloud Technologies like AWS, GCP, etc.</b>
+              </li>
+            </ul>
           <br/>
-          <p>
-            Well, I messed up and was not selected for GSoC. But, after this rejection I applied for numerous openings
-            at various startups and a few MnC. At this point I got selected for Internship at GoJek, which was much
-            more handsome than I could have wished for at that point. This internship was a big changing point for my
-            career and I worked with Data Fabric team for four months, consistently learning how product development
-            in golang takes place, and learning technologies related to cloud-native, and understanding various
-            architecture tradeoffs. Here I also learned some coding practices like TDD, understood Object Paradigm,
-            and other concepts.
+          These are some of the tech stacks I have worked with, there are some other technologies
+          as well, which I have explored till some extent, and I am still trying to do better.
           </p>
           <p>
-            After this point, I spent around 7 months out of 11 of my junior year spending time as a intern at Gojek.
-            Here we built two projects that would power the Data Catalog for Gojek, and both of them are open source as
-            <a href='https://github.com/odpf/meteor'> meteor</a> and <a href='https://github.com/odpf/compass'>compass</a>.
-          </p>
-          <p>
-            I was also a community leader for ACM NIT Surat, the programming student chapter and we conducted various 
+            I was also a community leader for <b>ACM NIT Surat</b>, the programming student chapter and we conducted various 
             programming events throughout the year, and helped many of my juniors getting started with their journey of
-            computer science. A key highlight around my tenure here was organising hackathon named Hack DotSlash.
+            computer science. A key highlight around my tenure here was organising hackathon named <b>Hack DotSlash</b>.
             This hackathon is quite close to my heart, and I have been rejected here as a participant, only to 
             win it&apos;s next edition, then become it&apos;s lead organizer and mentor it in the 6th edition. And this 4 year 
             association taught me a lot stuff about people, dev-community, devrels and organisations.

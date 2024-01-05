@@ -20,6 +20,13 @@ function card(item, index){
 export default function BlogList(){
     var BlogList = [
         {
+            title: 'Go play with some concurrency',
+            date: '30 Dec, 2023',
+            link: 'https://gaurav-kumar-1705.medium.com/go-play-with-some-concurrency-52f9c76dddc3',
+            rtime: 5,
+            description: '... as a Backend engineer we often need to process things concurrently. For instance we may have a simple job which reads data from a source, does some processing, and writes it to some sink..... Concurrency to me is more like the entire concept where we have a lot processes ....',
+        },
+        {
             title: 'odpf/meteor - Metadata Extractor',
             date: '20 Sep, 2021',
             link: 'https://gaurav-kumar-1705.medium.com/odpf-meteor-metadata-extractor-b42063c53f23',
