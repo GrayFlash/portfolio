@@ -37,11 +37,20 @@ function card(item, index){
 export default function WorkExperiences(){
     var JobHistory = [
         {
+            title: 'Software Engineer - Backend',
+            company: 'Merpay',
+            date: '10/2023-present',
+            link: 'https://www.merpay.com/',
+            description: 'I work with Internal Tooling team for Customer Platform as a Backend Engineer, owning products and features to handle critical aspects of Customer Support of our payment application',
+            skills: ['golang', 'gcp', 'kubernetes', 'datadog', 'terraform' ],
+            opensource: 'N/A'   
+        },
+        {
             title: 'Software Engineering Intern',
             company: 'Chargebee',
             date: '01/2023-07/2023',
             link: 'https://www.chargebee.com/',
-            description: 'Working in the SRE team, striving to build reliable products to support and automate the cloud infrastructure.',
+            description: 'Worked in the SRE team, built reliable products to support and automate the cloud infrastructure.',
             skills: ['python', 'java', 'spring', 'aws', 'vuejs', 'docker' ],
             opensource: 'N/A'
         },

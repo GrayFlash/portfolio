@@ -20,7 +20,6 @@ export default function WorkExperience() {
                 experience is:
             </p>
             <div className='mainHome'>
-                {/* <h3>Work in Progress 👷🚧 </h3> */}
                 <WorkExperiences/>
                 <br/>
             </div>
