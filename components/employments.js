@@ -7,10 +7,8 @@ function card(item, index){
             <div className="row list">
                 <div className="card__blog">
                 <div>
-                    <Link href={item.link}>
-                        <a target='_blank' rel="noopener noreferrer">
-                            <h4>{item.company} - {item.title}</h4>
-                        </a>
+                    <Link href={item.link} target='_blank' rel="noopener noreferrer">
+                        <h4>{item.company} - {item.title}</h4>
                     </Link>
                     <div className="card__blog__date"><i>{item.date}</i> </div>
                     <div className="card__blog__sub">
@@ -37,39 +35,39 @@ function card(item, index){
 export default function WorkExperiences(){
     var JobHistory = [
         {
-            title: 'Software Engineer - Backend',
-            company: 'Merpay',
-            date: '10/2023-present',
+            title: 'Backend Engineer',
+            company: 'Merpay / Mercari Group',
+            date: 'October 2023 – Present',
             link: 'https://www.merpay.com/',
-            description: 'I work with Internal Tooling team for Customer Platform as a Backend Engineer, owning products and features to handle critical aspects of Customer Support of our payment application',
-            skills: ['golang', 'gcp', 'kubernetes', 'datadog', 'terraform' ],
+            description: 'Spearheaded multiple projects that enhanced Customer Support Tools, leading to a reduction in Average Handling Time (AHT) by over 50 hours per month. Planned and implemented multiple migrations to reduce tech debt and adopt company-wide policies. Extended Japanese search to Traditional Chinese (zhTW), enhancing Help Center article search capabilities. Discovered and mitigated potential Personal Information Leakage within the organization. Analyzed and implemented cost-reduction strategies, cutting infrastructure expenses by approximately 66%.',
+            skills: ['golang', 'gcp', 'kubernetes', 'graphql', 'terraform', 'security'],
             opensource: 'N/A'   
         },
         {
-            title: 'Software Engineering Intern',
-            company: 'Chargebee',
-            date: '01/2023-07/2023',
+            title: 'Site Reliability Engineering Intern',
+            company: 'ChargeBee',
+            date: 'Jan 2023 – July 2023',
             link: 'https://www.chargebee.com/',
-            description: 'Worked in the SRE team, built reliable products to support and automate the cloud infrastructure.',
-            skills: ['python', 'java', 'spring', 'aws', 'vuejs', 'docker' ],
+            description: 'Performed infrastructure cost estimation and development of a tool to reduce false/duplicate cloudwatch alarms by 40%. Contributed to the initial design phase of SRE tool to provision read-replicas (auto-shard) on 70% memory utilization. Handled DML query execution requests received by the SRE team, performing query analysis in the dev environment (~5 per day).',
+            skills: ['python', 'java', 'spring', 'aws', 'cloudwatch', 'sre'],
             opensource: 'N/A'
         },
         {
-            title: 'Tech Intern',
-            company: 'Gojek',
-            date: '02/2022-06/2022',
+            title: 'Software Engineering Intern',
+            company: 'Gojek (GoTo Group)',
+            date: 'Feb 2022 - July 2022',
             link: 'https://www.gojek.io/',
-            description: 'Worked on products of data discovery and lineage (Meteor, and Compass), also added monitoring and alerts for the deployed jobs. In this term, I also added support for more plugins meant for extraction as well as sink of the data. I also made a CLI for compass which is meant for generating data lineage and basically using the metadata we generate in meteor.',
-            skills: ['gRPC', 'golang', 'docker'],
+            description: 'Worked in Data Platform developing Meteor to handle metadata collection across petabytes of data received per day in multiple kinds (>5) of data sources at Gojek. Contributed to data discovery and lineage tools (Meteor and Compass), added monitoring and alerts for deployed jobs, and developed CLI tools for generating data lineage.',
+            skills: ['golang', 'grpc', 'docker', 'data-platform', 'metadata'],
             opensource: 'https://github.com/odpf/compass',
         },
         {
-            title: 'Product Engineering Intern - Full Stack',
-            company: 'Gojek',
-            date: '06/2021-10/2021',
+            title: 'Software Engineering Intern',
+            company: 'Gojek (GoTo Group)',
+            date: 'June 2021 – October 2021',
             link: 'https://www.gojek.io/',
-            description:'Worked in Data Platform, on the inception of the data discovery tool named Meteor. I initially started with adding extractors for various data sources and then moved on to add various CLI, CI/CD features as we all updating the docs for the project. I have also made some contributions to how the data and config files are generated and consumed.',
-            skills: ['golang', 'TDD', 'sql', 'docker', 'automation'],
+            description: 'Worked in Data Platform on the inception of the data discovery tool named Meteor. Started with adding extractors for various data sources and moved on to add various CLI, CI/CD features while updating project documentation. Made contributions to how data and config files are generated and consumed.',
+            skills: ['golang', 'tdd', 'sql', 'docker', 'ci-cd'],
             opensource: 'https://github.com/odpf/meteor',
         },
     ]
