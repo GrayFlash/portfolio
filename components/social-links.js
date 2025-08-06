@@ -1,4 +1,5 @@
 import { useTheme } from 'next-themes'
+import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 export default function SocialLinks() {
     const [mounted, setMounted] = useState(false)
@@ -25,11 +26,12 @@ export default function SocialLinks() {
         return (
             <div className='social-image-box'>
                 <a key={index} href={link} target="_blank" rel="noreferrer noopener">
-                    <img
+                    <Image
                     src={`https://s2.svgbox.net/social.svg?ic=${name}&color=${
                         '000'
                     }`}
                     className="social-icons"
+                    alt="social-icon"
                     />
                 </a>
             </div>

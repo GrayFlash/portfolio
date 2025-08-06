@@ -3,16 +3,14 @@ import Link from 'next/link';
 
 function card(item, index){
     return(
-        <Link href={item.link} key={index}>
-            <a className="row list" target="_blank">
-                <div className="card__blog">
-                <div>
-                    <h4>{item.title}</h4>
-                    <div className="card__blog__date">{item.date} - {item.rtime} min read</div>
-                    <div className="card__blog__sub">{item.description}</div>
-                </div>
-                </div>
-            </a>
+        <Link href={item.link} key={index} className="row list" target="_blank">
+            <div className="card__blog">
+            <div>
+                <h4>{item.title}</h4>
+                <div className="card__blog__date">{item.date} - {item.rtime} min read</div>
+                <div className="card__blog__sub">{item.description}</div>
+            </div>
+            </div>
         </Link>
     )
 }

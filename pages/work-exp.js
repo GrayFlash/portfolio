@@ -15,9 +15,9 @@ export default function WorkExperience() {
             <br/>
             <p>
                 I got my first internship at Gojek close to the end of my
-                sophomore year at my B.Tech degree. Life has been pretty
-                different in a lot of ways sunce then. A list of my work
-                experience is:
+                sophomore year during my B.Tech degree. Life has been pretty
+                different in a lot of ways since then. Here&apos;s a list of my work
+                experience:
             </p>
             <div className='mainHome'>
                 <WorkExperiences/>

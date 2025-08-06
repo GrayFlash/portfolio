@@ -6,11 +6,11 @@ export default function Header() {
   const router = useRouter();
   return (
     <div className="header">
-      <Link href="/"><a className="header_name">Gaurav</a></Link>
+      <Link href="/" className="header_name">Gaurav</Link>
       <div className="navbar">
-        <Link href="/work-exp"><a className={router.pathname == "/work-exp" ? "active" : ""}>Work Exp.</a></Link>
-        <Link href="/blogs"><a className={router.pathname == "/blogs" ? "active" : ""}>Blogs</a></Link>
-        <Link href="/contact"><a className={router.pathname == "/contact" ? "active" : ""}>Contact</a></Link>
+        <Link href="/work-exp" className={router.pathname == "/work-exp" ? "active" : ""}>Work Exp.</Link>
+        <Link href="/blogs" className={router.pathname == "/blogs" ? "active" : ""}>Blogs</Link>
+        <Link href="/contact" className={router.pathname == "/contact" ? "active" : ""}>Contact</Link>
       </div>
     </div>
   )
