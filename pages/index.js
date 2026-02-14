@@ -21,12 +21,12 @@ export default function Home() {
           <div className='column left'>
             <h3>Hi, I&apos;m Gaurav.</h3>
             <p>
-              I currently work as a Software Engineer at <i>Merpay</i> - the fintech division of Mercari 🇯🇵.
-              My role primarily involves contributing as a Backend engineer to the golang microservices we own, but
-              I have also been contributing to other stages of PDLC & SDLC, including specification, testing feasibility,
-              estimating work efforts, design, and development flow. I have also contributed to frontend as well as
-              platform infrastructure development, investigation, and migration as required for my products and services.
-              
+              I currently work as a Software Engineer at <i>Enexia</i> - a renewable energy company owned by Sumitomo Corporation 🌱.
+              I transitioned from the fintech industry where I worked at Merpay (Mercari Group) as a Backend engineer.
+              My current role involves contributing to innovative data technology solutions for renewable energy aggregation services,
+              focusing on predicting and optimizing energy generation from multiple renewable sources to solve challenges in
+              renewable energy stability and grid integration, working towards carbon neutrality by 2050.
+
               I graduated in May 2023 from NIT Surat, India. I have also worked on Machine Learning,
               automation, and full-stack projects, and I am trying
               to build my skillset as a generalist by taking on similar challenges in my career.
